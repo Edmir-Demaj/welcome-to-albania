@@ -22,21 +22,18 @@ body {
 header {
     width: 100%;
     background: #3d5854;
+    position: relative;
+    z-index: 1;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 5%;
     height: 90px;
     line-height: 90px;
     max-width: 1400px;
     margin: 0 auto;
-}
-
-nav img {
-    margin-top: 30px;
 }
 
 nav .nav-list {
@@ -76,7 +73,41 @@ nav .navbar-toggler {
     border-bottom: 1.2px solid white;
 }
 
-/* media queries to make header responive for small screens*/
+/* styling hero-image section*/
+
+.hero-image {
+    min-height: calc(100vh - 90px);
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/Hero_image.jpg) center center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    letter-spacing: 1.5px;
+}
+
+.cta {
+    font-size: 1.2rem;
+    color: #fff;
+    border: 1.2px solid white;
+    text-transform: uppercase;
+    background-color: rgb(150, 45, 110);
+    padding: 10px 30px;
+}
+
+.cover-text {
+    display: none;
+}
+
+/* media queries for small screens*/
 
 @media screen and (max-width: 660px) {
     nav .nav-list {
@@ -84,7 +115,7 @@ nav .navbar-toggler {
         position: absolute;
         top: 90px;
         left: 0;
-        background-color: #3d5854;
+        background-color: #3d5753;
         width: 100%;
         transform: translateY(-100%);
         z-index: -1;
@@ -112,9 +143,6 @@ nav .navbar-toggler {
     }
 
     nav {
-        line-height: 75px;
+        line-height: 60px;
     }
-
 }
-
-/* styling hero-image section */
