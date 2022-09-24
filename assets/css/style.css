@@ -135,6 +135,46 @@ iframe {
     padding: 20px 10px 40px 10px;
 }
 
+/* styling footer and external nav links */
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(61, 88, 84);
+    color: white;
+    height: 120px;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    font-size: 1.7rem;
+}
+
+.social-links li {
+    padding: 10px 40px 0;
+}
+
+.social-links a {
+    color: #fff;
+}
+
+footer p {
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+strong {
+    color: bisque;
+    letter-spacing: 1px;
+}
+
+.social-links a:hover {
+    color: #7c7c29;
+}
+
 /* media queries for small screens*/
 
 @media screen and (max-width: 660px) {
