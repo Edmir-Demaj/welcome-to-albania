@@ -1,4 +1,4 @@
-/* General styles */
+/* general styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&display=swap');
 
@@ -17,7 +17,7 @@ body {
     color: rgb(23, 27, 27);
 }
 
-/* Styling Header and navigation links */
+/* styling header and navigation links */
 
 header {
     width: 100%;
@@ -116,3 +116,5 @@ nav .navbar-toggler {
     }
 
 }
+
+/* styling hero-image section */
