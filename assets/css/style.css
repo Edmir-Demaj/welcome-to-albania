@@ -107,7 +107,7 @@ h1 {
     display: none;
 }
 
-/* styling video-message section */
+/* styling video-message,nature-img,food-img sections */
 
 h2 {
     font-weight: 700;
@@ -123,6 +123,16 @@ p {
 
 iframe {
     padding: 20px 10px 0 10px;
+}
+
+.nature-img img {
+    width: 100%;
+    padding: 20px 10px 0;
+}
+
+.food-img img {
+    width: 100%;
+    padding: 20px 10px 40px 10px;
 }
 
 /* media queries for small screens*/
