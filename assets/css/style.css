@@ -107,6 +107,24 @@ h1 {
     display: none;
 }
 
+/* styling video-message section */
+
+h2 {
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+p {
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+iframe {
+    padding: 20px 10px 0 10px;
+}
+
 /* media queries for small screens*/
 
 @media screen and (max-width: 660px) {
