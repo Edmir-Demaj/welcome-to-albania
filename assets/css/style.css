@@ -69,6 +69,10 @@ nav .navbar-toggler {
     transform: translateY(0);
 }
 
+.fa-bars {
+    padding-top: 30px;
+}
+
 .active {
     border-bottom: 1.2px solid white;
 }
@@ -78,7 +82,7 @@ nav .navbar-toggler {
 .hero-image {
     min-height: calc(100vh - 90px);
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/Hero_image.jpg) center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../image/hero_image.jpg) center center / cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,14 +203,13 @@ strong {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
 }
 
 .title {
     text-transform: uppercase;
     border-radius: 10px;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 30px auto;
     border: solid 1px rgb(18, 17, 18);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
     font-size: 1.2rem;
@@ -214,7 +217,7 @@ strong {
 }
 
 .grid-container {
-    columns: 4 250px;
+    columns: 4 200px;
     column-gap: 1.5rem;
     width: 90%;
     margin: 0 auto;
@@ -226,9 +229,8 @@ strong {
     margin: 0 1.5rem 1.5rem 0;
     display: inline-block;
     width: 100%;
-    border: solid 1px rgb(112, 109, 109);
     padding: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
 }
 
@@ -239,7 +241,6 @@ strong {
 
 .grid-container p {
     margin: 5px 0;
-    padding: 0;
     text-align: center;
 }
 
