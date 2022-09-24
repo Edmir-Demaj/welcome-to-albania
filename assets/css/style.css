@@ -17,6 +17,11 @@ body {
     color: rgb(23, 27, 27);
 }
 
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 /* styling header and navigation links */
 
 header {
@@ -371,7 +376,7 @@ input[type="submit"]:hover {
     color: black;
 }
 
-::-webkit-input-placeholder {
+::placeholder {
     font-family: 'Roboto Serif', serif;
     font-size: 0.75rem;
 }
@@ -427,8 +432,8 @@ input[type="submit"]:hover {
         width: 330px;
         background-color: rgba(88, 98, 44, 0.6);
         position: absolute;
-        bottom: 8%;
-        left: 12%;
+        bottom: 100px;
+        left: 200px;
         padding: 20px 30px;
         font-size: 1.1rem;
     }
@@ -507,6 +512,7 @@ input[type="submit"]:hover {
     .cover-text {
         width: 380px;
         font-size: 1.2rem;
+        left: 25%;
     }
 
     .cta {
@@ -547,9 +553,19 @@ input[type="submit"]:hover {
         font-size: 1.3rem;
     }
 
-    /* responive contact page */
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+    }
 
+    .social-links li {
+        padding: 10px 30px 0;
+    }
+
+    /* responive contact page */
     .responsive-form {
+        min-height: calc(100vh - 210px);
         display: grid;
         grid-template-columns: auto auto;
         align-items: center;
