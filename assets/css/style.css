@@ -249,6 +249,132 @@ strong {
     transition: transform 1.25s;
 }
 
+/* styling contact form */
+
+.background-cover {
+    background: url(../image/contact-background.jpg) center center / cover no-repeat;
+}
+
+.contact-details {
+    background-color: rgba(180, 171, 196, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 4px rgb(249, 204, 254);
+    max-width: 500px;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.contact-details h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    border-bottom: 1px solid white;
+    padding: 0 0 20px;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contact-details span {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.info {
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 10px 20px;
+    background: #fbf9fe;
+    color: rgb(14, 14, 14);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    line-height: 25px;
+}
+
+.details .fa-solid {
+    font-size: 1.2rem;
+    color: rgb(5, 33, 5);
+}
+
+
+form {
+    width: 90%;
+    margin: 40px auto;
+    background-color: #b4abc4d2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    max-width: 500px;
+}
+
+fieldset {
+    border-style: none;
+    font-size: 1.1rem;
+
+
+}
+
+legend {
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+fieldset label,
+input,
+textarea {
+    display: block;
+    border-style: none;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+#text-info {
+    font-size: 1rem;
+    padding: 0 20px 20px;
+}
+
+input[type="button"] {
+    background-color: rgb(85, 130, 85);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    max-width: 150px;
+    padding: 10px 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+input[type="button"]:hover {
+    background-color: #eaea49;
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* media queries for small screens*/
 
 @media screen and (max-width: 660px) {
