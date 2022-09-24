@@ -40,7 +40,7 @@
             <div class="info"><i class="fa-solid fa-map-location-dot"></i>
                 <span> Address:</span>
                 <p>245 Elenor Daka Street</p>
-                <p>Tirane, Albania</p>
+                <p>Tiranë, Albania.</p>
             </div>
             <div class="info"><i class="fa-solid fa-phone-flip"></i>
                 <span>Phone:</span>
@@ -57,21 +57,24 @@
             <fieldset>
                 <legend>Get in touch !</legend>
                 <hr>
-                <p id="text-info">* We would love to hear from you.
+                <p class="text-info"> <span>*</span> We would love to hear from you.
                     Feel free to get more information about
                     Visiting Albania or
-                    send us any suggestions *</p>
+                    send us any suggestions. <span>*</span></p>
                 <hr>
                 <label for="first-name">Name:</label>
-                <input type="text" required id="first-name" name="first-name" placeholder="Enter your Name">
+                <input type="text" required autocomplete="off" id="first-name" name="first-name"
+                    placeholder="Enter your Name">
                 <label for="last-name">Surname:</label>
-                <input type="text" required id="last-name" name="last-name" placeholder="Enter your Surname">
+                <input type="text" required autocomplete="off" id="last-name" name="last-name"
+                    placeholder="Enter your Surname">
                 <label for="email">Email:</label>
-                <input type="email" required name="email-address" id="email" placeholder="Enter your email address">
+                <input type="email" required autocomplete="off" name="email-address" id="email"
+                    placeholder="Enter your email address">
                 <label for="message">Your message:</label>
                 <textarea name="message" cols="30" id="message" rows="10" placeholder="Enter your message"></textarea>
 
-                <input type="button" value="Submit">
+                <input type="submit" value="Submit">
             </fieldset>
         </form>
     </main>
