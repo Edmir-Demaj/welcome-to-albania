@@ -495,3 +495,55 @@ input[type="submit"]:hover {
         font-size: 1.7rem;
     }
 }
+
+/* media queries for large screens */
+@media screen and (min-width: 890px) {
+
+    /* media queries for home page */
+    h1 {
+        font-size: 4rem;
+    }
+
+    .cover-text {
+        width: 380px;
+        font-size: 1.2rem;
+    }
+
+    .cta {
+        font-size: 1.4rem;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        border-bottom: 1px solid rgb(130, 129, 129);
+        padding-bottom: 30px;
+    }
+
+    .nature-img {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .video {
+        margin-top: 50px;
+    }
+
+    .nature-img img {
+        padding-top: 20px;
+        min-height: 385px;
+    }
+
+    .food-img img {
+        padding: 30px 0 0 0;
+        min-height: 385px;
+    }
+
+    section h2 {
+        font-size: 2.2rem;
+    }
+
+    section p {
+        font-size: 1.3rem;
+    }
+}
