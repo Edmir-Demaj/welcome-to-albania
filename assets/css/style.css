@@ -49,7 +49,7 @@ nav .nav-list .nav-item {
     cursor: pointer;
     height: 100%;
     padding: 0 20px;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
 nav .nav-list .nav-item:hover {
@@ -116,7 +116,7 @@ h1 {
     display: none;
 }
 
-/* styling video-message,nature-img,food-img sections */
+/* styling video-message, nature-img, food-img sections */
 
 h2 {
     font-weight: 700;
@@ -197,7 +197,7 @@ strong {
 }
 
 .social-links a:hover {
-    color: #7c7c29;
+    color: #cfcf44;
 }
 
 /* style for gallery page */
@@ -215,7 +215,7 @@ strong {
     border-radius: 10px;
     padding: 10px 20px;
     margin: 30px auto;
-    border: solid 1px rgb(18, 17, 18);
+    border: solid 1px rgb(113, 112, 113);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
     font-size: 1.2rem;
     background-color: rgb(190, 222, 207);
@@ -250,7 +250,7 @@ strong {
 }
 
 .grid-container div:hover {
-    transform: scale(1.02);
+    transform: scale(1.025);
     transition: transform 1.25s;
 }
 
@@ -261,10 +261,10 @@ strong {
 }
 
 .contact-details {
-    background-color: rgba(180, 171, 196, 0.6);
+    background-color: rgba(190, 222, 207, 0.7);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px 4px rgb(249, 204, 254);
+    box-shadow: 0 0 5px 4px rgb(175, 212, 194);
     max-width: 500px;
     width: 90%;
     margin: 50px auto 0;
@@ -306,10 +306,10 @@ strong {
 form {
     width: 90%;
     margin: 40px auto;
-    background-color: rgba(180, 171, 196, 0.7);
+    background-color: rgba(190, 222, 207, 0.7);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px 4px rgb(249, 204, 254);
+    box-shadow: 0 0 5px 4px rgb(175, 212, 194);
     max-width: 500px;
 }
 
@@ -331,7 +331,7 @@ legend {
 }
 
 .text-info span {
-    color: rgb(237, 219, 219);
+    color: rgb(230, 215, 8);
 }
 
 hr {
@@ -358,7 +358,7 @@ fieldset label {
 }
 
 input[type="submit"] {
-    background-color: rgb(77, 129, 77);
+    background-color: rgb(32, 146, 32);
     color: #ffffff;
     font-size: 1rem;
     font-weight: 700;
@@ -368,11 +368,11 @@ input[type="submit"] {
     padding: 10px 0;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 1px 3px 4px rgb(211, 231, 211);
+    box-shadow: 0 1px 3px 3px rgb(211, 231, 211);
 }
 
-input[type="submit"]:hover {
-    background-color: #986add;
+input[type="submit"]:active {
+    background-color: #b38af1;
     color: black;
 }
 
@@ -425,7 +425,6 @@ input[type="submit"]:hover {
 
 @media screen and (min-width: 661px) {
 
-    /*  media queries for home page */
     .cover-text {
         display: block;
         color: #ffffff;
@@ -475,12 +474,10 @@ input[type="submit"]:hover {
         margin: 0 auto;
     }
 
-
     .food-img img {
         width: 100%;
         padding: 20px 0 40px 0;
     }
-
 
     footer p {
         font-size: 1rem;
@@ -494,17 +491,15 @@ input[type="submit"]:hover {
         font-size: 1.9rem;
     }
 
-    /* media queries for gallery page */
-
     .gallery-img h2 {
         font-size: 1.7rem;
     }
 }
 
 /* media queries for large screens */
+
 @media screen and (min-width: 890px) {
 
-    /* media queries for home page */
     h1 {
         font-size: 4rem;
     }
@@ -555,21 +550,24 @@ input[type="submit"]:hover {
 
     footer {
         display: grid;
-        grid-template-columns: auto auto auto;
-        column-gap: 10px;
+        grid-template-columns: 250px 250px 200px;
+        padding: 0 10% 0;
+    }
+
+    #copy {
+        grid-area: 1 / 1 / 2 / 2;
     }
 
     .social-links li {
         padding: 10px 30px 0;
     }
 
-    /* responive contact page */
     .responsive-form {
         min-height: calc(100vh - 210px);
         display: grid;
         grid-template-columns: auto auto;
         align-items: center;
-        max-width: 1500px;
+        max-width: 1400px;
         margin: 0 auto;
     }
 }
