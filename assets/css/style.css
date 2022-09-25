@@ -35,8 +35,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0 5%;
-    height: 90px;
-    line-height: 90px;
+    height: 100px;
+    line-height: 100px;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -384,6 +384,17 @@ input[type="submit"]:active {
 /* media queries for small screens*/
 
 @media screen and (max-width: 660px) {
+
+    .hero-image {
+        min-height: calc(100vh - 90px);
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../image/ww.jpg) center center / cover no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     nav .nav-list {
         display: grid;
         position: absolute;
