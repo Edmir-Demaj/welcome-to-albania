@@ -104,12 +104,26 @@ There are no unfixed bugs.
  5. After refreshing we will get the deployed link for the site.
  6. To find our page also can go to GitHub repository welcome-to-albania, on section Environments click GitHub-pages and can find the deployment.
 
+ The link of the site can be found here:
+ - https://edmir-demaj.github.io/welcome-to-albania/
+
  # **Credits**
 
 ## **Content**
 
 - The content on Home page was taken from different websites related with travelling to Albania. It was edited and recreated by the author of this site. (Edmir Demaj)
 - Instructions how to create hamburger menu for small devices was taken from [CSS Hamburger Menu design | NO JAVASCRIPT](https://www.youtube.com/watch?v=kNiic1CaXrQ&t=618s)
+- Inspiration about the design of the site was taken from [johnsmilga.com](https://html-css-flexbox-backroads-new-design.netlify.app/)
+- Instructions how to create a Readme.md file were taken from [Code-Institute-Solutions/readme-template](https://github.com/Code-Institute-Solutions/readme-template)
+
+ ## **Other sources used for help**
+
+ - [CodeInstitute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum)
+ - [W3schools](https://www.w3schools.com/html/default.asp)
+ - [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+ - [Stackoverflow](https://stackoverflow.com/)
+ - [Youtube](https://www.youtube.com/results?search_query=flexbox+and+grid)
+ - [Google](https://www.google.co.uk/)
 
  ## **Media**
 
@@ -117,5 +131,16 @@ There are no unfixed bugs.
 - The video-image on Home page was taken from [Youtube](https://www.youtube.com/watch?v=yg9k2uOdciM)
 - The logo was made with [Canva.com](https://www.canva.com/design/DAFNWUi8Ar0/ukgdC9kMg6_DThWJ5jdBUA/edit)
 - All icons used were taken from [Font Awsome](https://fontawesome.com/)
+
+# **Wireframe**
+
+Wireframe for this site was made using [Figma](https://www.figma.com/) and was created only for Home page for 3 different screen sizes: 
+Desktop, Tablet, Mobile.
+
+See the wireframe for this site.
+
+![wireframe for home page](assets/image/readme.md-images/Desktop%20Version_Project_1.jpg)
+
+ ## **Thank you !**
 
 
