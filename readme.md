@@ -54,7 +54,7 @@ Check out how it looks in different screen sizes:
 2. Contact Form, where the users can submit their queries or suggestions they might have about visiting Albania.
 - All the fields need to fill out correctly to procced with submitting.
 
-![contact page image](assets/image/readme.md-images/contact%20page.png)
+![contact page image](assets/image/readme.md-images/contact-page.png)
 
 ## **Features left to implement**
 - I would like to make the site more dynamic with more animations to attract users attention and later to provide backend for my site.
@@ -139,7 +139,7 @@ Desktop, Tablet, Mobile.
 
 See the wireframe for this site.
 
-![wireframe for home page](assets/image/readme.md-images/Desktop%20Version_Project_1.jpg)
+![wireframe for home page](assets/image/readme.md-images/desktop-version.jpg)
 
  ## **Thank you !**
 
